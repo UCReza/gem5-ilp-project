@@ -1,0 +1,5 @@
+run,committedInsts,numCycles,IPC,branch_lookups,branch_incorrect,branch_accuracy_percent
+branch_loop_none,15015363,19146539,0.784234,,4473,
+branch_loop,15015363,19146470,0.784237,,4502,
+compute_loop,29007623,44599868,0.650397,,590,
+memory_loop,35415928,38681070,0.915588,,624,
