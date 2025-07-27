@@ -17,9 +17,10 @@ apt install -y gcc-aarch64-linux-gnu && \
 aarch64-linux-gnu-gcc -static -o hello_arm hello.c"
 ```
 
-### 2.Command in the gem5 simulator with the ARM binary to verify it prints "Hello World":
+### 2.Command in the gem5 simulator with the ARM binary to verify it prints "Hello World": Used config file to run hello world
 
 ```bash
-./build/ARM/gem5.opt configs/deprecated/example/se.py --cmd=/absolute/path/to/hello_arm
+./build/ARM/gem5.opt /Users/rezashrestha/Documents/MSCS-531/Week5/workload/config/hello_config.py
+
 
 
